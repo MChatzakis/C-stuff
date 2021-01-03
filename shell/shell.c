@@ -166,7 +166,7 @@ void execute(command *commands,int pipes){
 			perror("Error forking\n");
 			exit(EXIT_FAILURE);
 		}
-
+        
 		if(pid == 0){
 
 			//child_running = 0;
